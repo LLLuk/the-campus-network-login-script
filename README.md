@@ -18,7 +18,7 @@ curl
 --compressed \
 --insecure
 ```
-最终获取的示例为：
+最终获取的示例为（这些就是你的唯一KEY！请保存好不要外泄！）：
 ```
 'http://10.100.1.5/eportal/InterFace.do?method=login' \
   -H 'Connection: keep-alive' \
