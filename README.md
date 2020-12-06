@@ -1,4 +1,3 @@
-# the-campus-network-login-script
 ## 简介
 该shell脚本意在解决宿舍夜间断电后，第二天设备上电后需手动登录校园网(含电信网等)的问题。推荐使用openwrt、merlin等Linux内核系统的路由器。
 
@@ -11,13 +10,13 @@
 
 #### 2、编辑并测试脚本
 第一步、将复制的KEY保存入一个txt文件中以供编辑。
-第二步、删除最后两行和开头curl字段，如下：
+第二步、删除开头curl字段和最后两行，如下：
 ```
 curl
 ```
 ```
-  --compressed \
-  --insecure
+--compressed \
+--insecure
 ```
 最终获取的示例为：
 ```
@@ -51,7 +50,7 @@ AUTH SUCCESS
 #### 3、部署到路由器（或设备）
 
 ###### 以openwrt为例
-小米路由器可通过开启ssh权限后登录路由器后台。小米路由4代前可通过官网工具开启（失去保修），4代后如ac2100、ax1800等可通过命令注入漏洞开启。
+小米路由器可通过开启ssh权限后登录路由器后台(小米使用op内核)。小米路由4代以前可通过官网工具开启（失去保修），4代后如ac2100、ax1800等可通过漏洞注入命令开启ssh。登录ssh后如下：
 ```
 Connecting to 192.168.31.1:22...
 Connection established.
@@ -83,8 +82,9 @@ root@XiaoQiang:~# cd /etc/init.d
 ```
 /etc/init.d/auth enable
 ```
-
 **完成后下线，并重启路由器检查是否自动联网**
+
+
 
 ###### merlin
 
