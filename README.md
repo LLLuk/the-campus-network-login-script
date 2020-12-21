@@ -6,7 +6,7 @@
 #### 1、获取唯一KEY
 
 在登录界面抓包获取包含学号、登录密码的KEY。
-![11](https://github.com/LLLuk/the-campus-network-login-script/pic/1.jpg)
+![11](https://github.com/LLLuk/the-campus-network-login-script/tree/main/pic/1.jpg)
 
 #### 2、编辑并测试脚本
 第一步、将复制的KEY保存入一个txt文件中以供编辑。  
