@@ -1,12 +1,18 @@
 ## 简介
-该shell脚本意在解决宿舍夜间断电后，第二天设备上电后需手动登录校园网(含电信网等)的问题。推荐使用openwrt、merlin等Linux内核系统的路由器。
+该shell脚本意在解决宿舍夜间断电后，第二天设备上电后需手动登录校园网(含电信网等)的问题。推荐使用openwrt、merlin等Linux内核系统的路由器。理论上该方法适用于所有无加密网页认证。
 
 ## 使用方法（大致三步）：
 
 #### 1、获取唯一KEY
 
-在登录界面抓包获取包含学号、登录密码的KEY。
+使用浏览器进入登录界面，输入为账号密码后按F12调出控制台，选择“网络”选项卡。
 ![login](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/1.JPG)
+点击“login”
+![ready](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/2.JPG)
+选择抓到的第一个文件右键复制
+![copy](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.JPG)
+保存到记事本以供编辑，粘贴出来的大致样子：
+![example](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)
 
 #### 2、编辑并测试脚本
 第一步、将复制的KEY保存入一个txt文件中以供编辑。  
