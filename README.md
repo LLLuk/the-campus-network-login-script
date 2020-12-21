@@ -7,10 +7,13 @@
 
 (一)使用浏览器进入登录界面，输入为账号密码后按F12调出控制台，选择“网络”选项卡。<br>
 ![login](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/1.JPG)<br>
+
 (二)点击“login”<br>
 ![ready](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/2.JPG)<br>
+
 (三)选择抓到的第一个文件右键复制<br>
 ![grip](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.jpg)<br>
+
 (四)保存到记事本以供编辑，粘贴出来的大致样子：<br>
 ![example](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)<br>
 
@@ -89,6 +92,8 @@ root@XiaoQiang:~# cd /etc/init.d
 /etc/init.d/auth enable
 ```
 **完成后下线，并重启路由器检查是否自动联网**
+
+至此，路由器可以实现每天早上来电后自动登录校园网络或电信网络，无需手动登录。
 
 
 
