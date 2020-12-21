@@ -10,7 +10,7 @@
 点击“login”
 ![ready](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/2.JPG)
 选择抓到的第一个文件右键复制
-![get](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.JPG)
+![grip](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.jpg)
 保存到记事本以供编辑，粘贴出来的大致样子：
 ![example](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)
 
