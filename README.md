@@ -10,9 +10,9 @@
 点击“login”
 ![ready](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/2.JPG)
 选择抓到的第一个文件右键复制
-![copy1](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.JPG)
+![get](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.JPG)
 保存到记事本以供编辑，粘贴出来的大致样子：
-![example1](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)
+![example](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)
 
 #### 2、编辑并测试脚本
 第一步、将复制的KEY保存入一个txt文件中以供编辑。  
