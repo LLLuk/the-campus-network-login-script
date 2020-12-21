@@ -5,14 +5,14 @@
 
 #### 1、获取唯一KEY
 
-使用浏览器进入登录界面，输入为账号密码后按F12调出控制台，选择“网络”选项卡。
-![login](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/1.JPG)
-点击“login”
-![ready](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/2.JPG)
-选择抓到的第一个文件右键复制
-![grip](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.jpg)
-保存到记事本以供编辑，粘贴出来的大致样子：
-![example](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)
+使用浏览器进入登录界面，输入为账号密码后按F12调出控制台，选择“网络”选项卡。<br>
+![login](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/1.JPG)<br>
+点击“login”<br>
+![ready](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/2.JPG)<br>
+选择抓到的第一个文件右键复制<br>
+![grip](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/3.jpg)<br>
+保存到记事本以供编辑，粘贴出来的大致样子：<br>
+![example](https://github.com/LLLuk/the-campus-network-login-script/blob/main/pic/4.JPG)<br>
 
 #### 2、编辑并测试脚本
 第一步、将复制的KEY保存入一个txt文件中以供编辑。  
